@@ -1,0 +1,39 @@
+{
+    "homepage": "https://nmap.org",
+    "version": "7.50",
+    "license": "https://svn.nmap.org/nmap/COPYING",
+    "url": "https://nmap.org/dist/nmap-7.50-setup.exe",
+    "hash": "4dae3455e44faca2ab06e57d881d26aee81cf5151325efae57143140c514eb50",
+    "extract_dir": "nmap",
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "Uninstall.exe",
+        "args": "/S"
+    },
+    "env_add_path": "bin",
+    "bin": [
+        "nmap.exe",
+        "ncat.exe",
+        "ndiff.exe",
+        "zenmap.exe",
+        "nping.exe"
+    ],
+    "shortcuts": [
+        [
+            "zenmap.exe",
+            "Zenmap"
+        ]
+    ],
+    "checkver": {
+        "url": "https://nmap.org/download.html",
+        "re": "nmap-([\\d.]+)-setup.exe"
+    },
+    "autoupdate": {
+        "url": "https://nmap.org/dist/nmap-$version-setup.exe"
+    }
+}
