@@ -12,7 +12,7 @@
         ]
     ],
     "checkver": {
-        "github"
+        "github": "https://github.com/zetamatta/nyagos"
     },
     "autoupdate": {
         "url": "https://github.com/zetamatta/nyagos/releases/download/$version/nyagos-$version-amd64.zip"
