@@ -4,8 +4,6 @@
     "license": "https://github.com/zetamatta/nyagos/blob/master/LICENSE",
     "url": "https://github.com/zetamatta/nyagos/releases/download/4.2.3_3/nyagos-4.2.3_3-amd64.zip",
     "hash": "6cab7fc4d12b56b673fb701dc6cad0399b1346aba54b48dce2249bfbda17f254",
-    "extract_dir": "nyagos",
-    "env_add_path": "bin",
     "bin": [
         [
             "nyagos.exe"
