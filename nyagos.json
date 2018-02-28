@@ -8,7 +8,7 @@
     "env_add_path": "bin",
     "bin": [
         [
-            "nyagos.exe",
+            "nyagos.exe"
         ]
     ],
     "checkver": {
