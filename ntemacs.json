@@ -1,0 +1,28 @@
+{
+    "homepage": "http://cha.la.coocan.jp/doc/NTEmacsBinary.html",
+    "license": "GPL3",
+    "version": "25.3",
+    "url": "http://cha.la.coocan.jp/files/emacs-25.3-simple_ime-no_symbol.zip",
+    "hash": "eb5f47af4e3135838a2bbec91259d912b745fc0005920079de30921d49aba64b",
+    "extract_dir": "emacs",
+    "bin": [
+        "bin\\runemacs.exe",
+        "bin\\emacs.exe",
+        "bin\\emacsclientw.exe",
+        "bin\\etags.exe",
+        "bin\\ctags.exe"
+    ],
+    "checkver": {
+        "url": "http://cha.la.coocan.jp/doc/NTEmacsBinary.html",
+        "re": "emacs-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://cha.la.coocan.jp/files/emacs-$version-simple_ime-no_symbol.zip"
+    },
+    "shortcuts": [
+        [
+            "bin\\runemacs.exe",
+            "Emacs"
+        ]
+    ]
+}
