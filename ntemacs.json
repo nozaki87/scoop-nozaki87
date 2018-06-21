@@ -1,9 +1,9 @@
 {
     "homepage": "http://cha.la.coocan.jp/doc/NTEmacsBinary.html",
     "license": "GPL3",
-    "version": "25.3",
-    "url": "http://cha.la.coocan.jp/files/emacs-25.3-simple_ime-no_symbol.zip",
-    "hash": "eb5f47af4e3135838a2bbec91259d912b745fc0005920079de30921d49aba64b",
+    "version": "26.1",
+    "url": "http://cha.la.coocan.jp/files/emacs-26.1-simple_ime-no_symbol.zip",
+    "hash": "54cdee7db680307ceb89ef50ae2522ea81907ded12100b0e6f49f1fc928988f7",
     "extract_dir": "emacs",
     "bin": [
         "bin\\runemacs.exe",
