@@ -1,0 +1,36 @@
+{
+    "homepage": "https://github.com/debauchee/barrier",
+    "version": "2.1.0",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/debauchee/barrier/releases/download/v2.1.0/BarrierSetup-2.1.0.exe",
+    "hash": "5e82fb8f6ab845603c4144a5f97de971fa017600ce6d38903f00c766289de79b",
+    "installer": {
+        "args": [
+            "/VERYSILENT",
+            "/DIR=\"$dir\"",
+            "/NORESTART",
+            "/SUPPRESSMSGBOXES",
+            "/CLOSEAPPLICATIONS",
+            "/NORESTARTAPPLICATIONS",
+            "/NOICONS"
+        ]
+    },
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": [
+            "/VERYSILENT",
+            "/NORESTART",
+            "/SUPPRESSMSGBOXES",
+            "/NOICONS"
+        ]
+    },
+    "bin": [
+        "barrier.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/debauchee/barrier"
+    },
+    "autoupdate": {
+        "url": "https://github.com/debauchee/barrier/releases/download/v$version/BarrierSetup-$version.exe"
+    }
+}
